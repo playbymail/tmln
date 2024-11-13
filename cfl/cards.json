@@ -1,0 +1,29 @@
+{
+"start": {"image": "page_03_row_03_col_03.png"},
+"finish": {"image": "page_03_row_02_col_03.png"},
+"paths": [
+  {"image": "page_01_row_01_col_01.png", "lines": [0,1,3,2], "waypoints": ["R", "B", "Y", "G"]},
+  {"image": "page_01_row_01_col_02.png", "lines": [0,2,1,3], "waypoints": ["R", "B", "Y", "G"]},
+  {"image": "page_01_row_01_col_03.png", "lines": [0,2,3,1], "waypoints": ["B", "Y", "G", "Y"]},
+  {"image": "page_01_row_02_col_01.png", "lines": [0,3,1,2], "waypoints": ["Y", "G", "B", "R"]},
+  {"image": "page_01_row_02_col_02.png", "lines": [0,3,2,1], "waypoints": ["R", "Y", "B", "G"]},
+  {"image": "page_01_row_02_col_03.png", "lines": [1,0,2,3], "waypoints": ["B", "R", "Y", "G"]},
+  {"image": "page_01_row_03_col_01.png", "lines": [1,0,3,2], "waypoints": ["R", "B", "G", "Y"]},
+  {"image": "page_01_row_03_col_02.png", "lines": [1,2,0,3], "waypoints": ["B", "R", "Y", "G"]},
+  {"image": "page_01_row_03_col_03.png", "lines": [1,2,3,0], "waypoints": ["B", "B", "Y", "R"]},
+  {"image": "page_02_row_01_col_01.png", "lines": [1,3,0,2], "waypoints": ["G", "Y", "B", "R"]},
+  {"image": "page_02_row_01_col_02.png", "lines": [1,3,2,0], "waypoints": ["Y", "B", "R", "G"]},
+  {"image": "page_02_row_01_col_03.png", "lines": [2,0,1,3], "waypoints": ["R", "G", "Y", "B"]},
+  {"image": "page_02_row_02_col_01.png", "lines": [2,0,3,2], "waypoints": ["G", "B", "Y", "R"]},
+  {"image": "page_02_row_02_col_02.png", "lines": [2,1,0,3], "waypoints": ["R", "G", "B", "Y"]},
+  {"image": "page_02_row_02_col_03.png", "lines": [2,1,3,0], "waypoints": ["G", "B", "R", "Y"]},
+  {"image": "page_02_row_03_col_01.png", "lines": [2,3,0,1], "waypoints": ["Y", "B", "R", "G"]},
+  {"image": "page_02_row_03_col_02.png", "lines": [2,3,1,0], "waypoints": ["B", "Y", "R", "G"]},
+  {"image": "page_02_row_03_col_03.png", "lines": [3,0,1,2], "waypoints": ["G", "B", "Y", "R"]},
+  {"image": "page_03_row_01_col_01.png", "lines": [3,0,2,1], "waypoints": ["R", "B", "G", "Y"]},
+  {"image": "page_03_row_01_col_02.png", "lines": [3,1,0,2], "waypoints": ["Y", "B", "G", "R"]},
+  {"image": "page_03_row_01_col_03.png", "lines": [3,1,2,0], "waypoints": ["Y", "B", "G", "R"]},
+  {"image": "page_03_row_02_col_01.png", "lines": [3,2,0,1], "waypoints": ["B", "Y", "R", "G"]},
+  {"image": "page_03_row_02_col_02.png", "lines": [3,2,1,0], "waypoints": ["B", "Y", "R", "G"]}
+]
+}
