@@ -1,2 +1,4 @@
 *.pdf
 *.png
+!token_player_?.png
+!token_tunnel_grey.png

@@ -2,6 +2,8 @@
 
 package tmln
 
+import "image"
+
 // there are 23 path cards in the game. we need 46.
 // we rotate the original cards 180 degrees to make the missing 23 cards.
 
@@ -23,7 +25,7 @@ type Card struct {
 	Slots     [4]int       // 0...3, maps input to output
 	Timelines [4]*TimeLine // 0...3
 	Waypoints [4]*Waypoint // 0...3
-	Image     string       // path to image for this card
+	Image     *image.RGBA  // stores the actual decoded PNG
 	Rotate180 bool         // when true, rotate the image 180 degrees
 }
 
@@ -45,6 +47,21 @@ const (
 	Nucleons
 	OilPetrol
 )
+
+func (c Commodity) String() string {
+	switch c {
+	case BeetCandy:
+		return "R"
+	case MilkBread:
+		return "Y"
+	case Nucleons:
+		return "G"
+	case OilPetrol:
+		return "B"
+	default:
+		return "*"
+	}
+}
 
 // TimeLine represents a timeline that flows from one side of a PathCard to the other.
 type TimeLine struct {
